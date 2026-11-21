@@ -1,0 +1,21 @@
+# WM A11y Sensory Governor
+
+> WordPress plugin: prints WCAG 2.2 focus-ring (SC 2.4.11 Focus Not Obscured) and reduced-motion (SC 2.3.3) CSS into the site head, exposes WP 6.5+ Block Bindings (`wm-sensory/tokens`) and a GenerateBlocks 2.x dynamic tag (`{{wm_sensory_token}}`), and calculates colour-contrast ratios in the admin, over rate-limited REST (`wm-sensory/v1/calculate-contrast`) and on WP-CLI (`wp a11y contrast`).
+
+## Overview
+
+`wm-a11y-sensory-governor` is a WordPress plugin developed with an agentic workflow (AI coding agents). It stores four options (focus governor on/off, motion governor on/off, focus-ring colour, opt-in uninstall data deletion), ships no frontend JavaScript, no shortcode and no custom database table, makes no external request, and registers as a spoke of the WM Suite Hub when the hub is active.
+
+## Standards & Compliance
+
+- Version 1.2.2.
+- PHP 8.2+ / strict types / WordPress coding style
+- Zero-CDN Invariant (self-hosted assets in `/assets/`)
+- Nonce & Capability Verification / Transient HMAC-SHA256 REST Rate-Limiting / Late Escaping
+- CSS aimed at WCAG 2.2 SC 2.4.11 and 2.3.3, contrast ratios per SC 1.4.3 / 1.4.11; no conformance assessment · no raw IP or personal data stored
+
+## Official Links
+
+- Plugin Page: https://arnoldwender.com/wordpress-plugins/wm-a11y-sensory-governor/
+- GitHub Repository: https://github.com/arnoldwender/wm-wp-a11y-sensory-governor
+- Support & Liability: Zero support — reproducible bugs on https://github.com/arnoldwender/wm-wp-a11y-sensory-governor/issues only · no private support · AS IS / no liability (SUPPORT.md)

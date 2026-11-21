@@ -1,0 +1,18 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/wp-admin/admin.php?page=wm-sensory-governor",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": false
+  },
+  "login": true,
+  "steps": [
+    {
+      "step": "activatePlugin",
+      "pluginPath": "wm-a11y-sensory-governor/wm-a11y-sensory-governor.php"
+    }
+  ]
+}

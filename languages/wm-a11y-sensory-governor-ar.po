@@ -1,0 +1,494 @@
+# Translation of wm-a11y-sensory-governor in ar
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-a11y-sensory-governor 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-a11y-sensory-"
+"governor\n"
+"POT-Creation-Date: 2026-11-21T12:50:34+00:00\n"
+"PO-Revision-Date: 2026-11-21 13:50+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-a11y-"
+"sensory-governor/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-a11y-sensory-"
+"governor/issues>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-a11y-sensory-governor\n"
+
+#. Plugin Name of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "WM Accessibility Sensory Governor & Contrast Tokenizer"
+msgstr "WM الحاكم الحسي لإمكانية الوصول ومحلل التباين"
+
+#. Plugin URI of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-a11y-sensory-governor/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-a11y-sensory-governor/"
+
+#. Description of the plugin
+#: wm-a11y-sensory-governor.php
+msgid ""
+"Prints WCAG 2.2 focus-ring (SC 2.4.11 Focus Not Obscured) and reduced-motion "
+"(SC 2.3.3) CSS into the site head and calculates colour-contrast ratios in "
+"the admin, over REST and on WP-CLI."
+msgstr ""
+"يطبع قواعد CSS لحلقة التركيز (WCAG 2.2 SC 2.4.11 Focus Not Obscured) وتقليل "
+"الحركة (SC 2.3.3) في ترويسة الموقع، ويحسب نسب تباين الألوان في لوحة التحكم "
+"وعبر REST وWP-CLI."
+
+#. Author of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/Admin/AdminDashboard.php:86
+msgid "WM Sensory Governor — Fokus & Bewegung"
+msgstr "WM Sensory Governor — التركيز والحركة"
+
+#: includes/Admin/AdminDashboard.php:105
+msgid "Sensorischer Schutz aktiv"
+msgstr "الحماية الحسية نشطة"
+
+#: includes/Admin/AdminDashboard.php:105
+msgid "Sensorischer Schutz aus"
+msgstr "الحماية الحسية متوقفة"
+
+#: includes/Admin/AdminDashboard.php:107
+msgid ""
+"Fokus-Ring und Reduced-Motion-CSS im Frontend (WCAG 2.2 SC 2.4.11 und 2.3.3)"
+msgstr ""
+"قواعد CSS لحلقة التركيز وتقليل الحركة في الواجهة الأمامية (WCAG 2.2 SC "
+"2.4.11 و2.3.3)"
+
+#: includes/Admin/AdminDashboard.php:113 includes/Admin/AdminDashboard.php:117
+msgid "Aktiv"
+msgstr "نشط"
+
+#: includes/Admin/AdminDashboard.php:113 includes/Admin/AdminDashboard.php:117
+msgid "Aus"
+msgstr "متوقف"
+
+#: includes/Admin/AdminDashboard.php:114
+msgid "Motion Guard"
+msgstr "حارس الحركة"
+
+#: includes/Admin/AdminDashboard.php:118
+msgid "Fokus-Ring"
+msgstr "حلقة التركيز"
+
+#: includes/Admin/AdminDashboard.php:124
+msgid "Governor konfigurieren"
+msgstr "تهيئة الحاكم"
+
+#: includes/Admin/AdminDashboard.php:143
+msgid "WM Sensory Governor"
+msgstr "WM الحاكم الحسي"
+
+#: includes/Admin/AdminDashboard.php:144
+msgid "Sensory Governor"
+msgstr "الحاكم الحسي"
+
+#: includes/Admin/AdminDashboard.php:224
+msgid "PASS"
+msgstr "ناجح"
+
+#: includes/Admin/AdminDashboard.php:224
+msgid "FAIL"
+msgstr "راسب"
+
+#: includes/Admin/AdminDashboard.php:229
+msgid "Sensory Telemetry"
+msgstr "القياس الحسي"
+
+#: includes/Admin/AdminDashboard.php:230
+msgid "Live Contrast Calculator"
+msgstr "حاسبة التباين المباشرة"
+
+#: includes/Admin/AdminDashboard.php:231
+msgid "Focus Not Obscured"
+msgstr "تركيز غير محجوب"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "Vestibular Motion Governor"
+msgstr "حاكم الحركة الدهليزي"
+
+#: includes/Admin/AdminDashboard.php:233
+msgid "Law & WP-CLI"
+msgstr "المراجع وWP-CLI"
+
+#: includes/Admin/AdminDashboard.php:247
+msgid "WM Accessibility Sensory Governor &amp; Contrast Tokenizer"
+msgstr "WM الحاكم الحسي لإمكانية الوصول &amp; محلل التباين"
+
+#: includes/Admin/AdminDashboard.php:248
+msgid "Focus-ring &amp; reduced-motion CSS &bull; WCAG contrast calculator"
+msgstr "قواعد CSS لحلقة التركيز &amp; تقليل الحركة &bull; حاسبة تباين WCAG"
+
+#: includes/Admin/AdminDashboard.php:252
+msgid "Part of the WM Suite plugin family"
+msgstr "جزء من عائلة إضافات WM Suite"
+
+#: includes/Admin/AdminDashboard.php:254
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:255
+msgid "Hub"
+msgstr "وضع المركز"
+
+#: includes/Admin/AdminDashboard.php:255
+msgid "Standalone"
+msgstr "مستقل"
+
+#: includes/Admin/AdminDashboard.php:257
+msgid "WCAG CONTRAST MATHS"
+msgstr "حسابات تباين WCAG"
+
+#: includes/Admin/AdminDashboard.php:258
+msgid "SC 2.4.11 FOCUS CSS"
+msgstr "CSS التركيز SC 2.4.11"
+
+#: includes/Admin/AdminDashboard.php:259
+msgid "SC 2.3.3 REDUCED MOTION"
+msgstr "تقليل الحركة SC 2.3.3"
+
+#: includes/Admin/AdminDashboard.php:266
+msgid "Was macht der Sensory Governor und wofür brauchen Sie ihn?"
+msgstr "ماذا يفعل Sensory Governor ولماذا تحتاج إليه؟"
+
+#: includes/Admin/AdminDashboard.php:269
+msgid ""
+"Das Plugin schreibt zwei CSS-Blöcke in den Kopf jeder Seite: einen "
+"sichtbaren Fokus-Ring mit Abstand zu fixierten Kopfzeilen (WCAG 2.2 SC "
+"2.4.11) und eine Bremse für Animationen, sobald Besucher in ihrem System "
+"„Bewegung reduzieren“ eingestellt haben (SC 2.3.3). Dazu rechnet es "
+"Farbkontraste nach der WCAG-Formel aus – hier im Backend, per REST und per "
+"WP-CLI. Die Farben der Website ändert es nicht."
+msgstr ""
+"تكتب الإضافة كتلتَي CSS في ترويسة كل صفحة: حلقة تركيز واضحة بمسافة عن "
+"الترويسات الثابتة (WCAG 2.2 SC 2.4.11)، ومكبحاً للرسوم المتحركة عندما يفعّل "
+"الزائر خيار «تقليل الحركة» في نظام التشغيل (SC 2.3.3). كما تحسب تباين "
+"الألوان وفق معادلة WCAG في لوحة التحكم وعبر REST وWP-CLI دون تغيير ألوان "
+"الموقع."
+
+#: includes/Admin/AdminDashboard.php:272
+msgid "Schnellzugriff:"
+msgstr "وصول سريع:"
+
+#: includes/Admin/AdminDashboard.php:274
+msgid "Farbkontrast live berechnen"
+msgstr "حساب تباين الألوان مباشرة"
+
+#: includes/Admin/AdminDashboard.php:277
+msgid "Bewegungsreduktion prüfen"
+msgstr "فحص تقليل الحركة"
+
+#: includes/Admin/AdminDashboard.php:280
+msgid "Rechtsgrundlagen & WP-CLI"
+msgstr "المرجعية وWP-CLI"
+
+#: includes/Admin/AdminDashboard.php:286
+msgid "Module Tabs"
+msgstr "علامات تبويب الوحدة"
+
+#: includes/Admin/AdminDashboard.php:299
+msgid "Focus Obscured Guard"
+msgstr "حماية عدم حجب التركيز"
+
+#: includes/Admin/AdminDashboard.php:300 includes/Admin/AdminDashboard.php:305
+#: includes/Integrations/EcosystemBridge.php:92
+#: includes/Integrations/EcosystemBridge.php:97
+msgid "Active"
+msgstr "نشط"
+
+#: includes/Admin/AdminDashboard.php:300 includes/Admin/AdminDashboard.php:305
+#: includes/Integrations/EcosystemBridge.php:93
+#: includes/Integrations/EcosystemBridge.php:98
+msgid "Disabled"
+msgstr "معطّل"
+
+#: includes/Admin/AdminDashboard.php:301
+msgid "WCAG 2.2 2.4.11"
+msgstr "WCAG 2.2 2.4.11"
+
+#: includes/Admin/AdminDashboard.php:304
+msgid "Motion Governor"
+msgstr "حاكم الحركة"
+
+#: includes/Admin/AdminDashboard.php:306
+msgid "Prefers-Reduced-Motion"
+msgstr "Prefers-Reduced-Motion"
+
+#: includes/Admin/AdminDashboard.php:309
+msgid "Target Contrast Ratio"
+msgstr "نسبة التباين المستهدفة"
+
+#: includes/Admin/AdminDashboard.php:310
+msgid "&ge; 4.5:1"
+msgstr "&ge; 4.5:1"
+
+#: includes/Admin/AdminDashboard.php:311
+msgid "WCAG 2.2 AA (Normal Text)"
+msgstr "WCAG 2.2 AA (نص عادي)"
+
+#: includes/Admin/AdminDashboard.php:314
+msgid "UI &amp; Focus Ring Ratio"
+msgstr "نسبة الواجهة &amp; حلقة التركيز"
+
+#: includes/Admin/AdminDashboard.php:315
+msgid "&ge; 3.0:1"
+msgstr "&ge; 3.0:1"
+
+#: includes/Admin/AdminDashboard.php:316
+msgid "WCAG 1.4.11 Non-Text"
+msgstr "WCAG 1.4.11 غير نصي"
+
+#: includes/Admin/AdminDashboard.php:321
+msgid "What the two governors do"
+msgstr "ما الذي يفعله الحاكمان"
+
+#: includes/Admin/AdminDashboard.php:323
+msgid ""
+"While the focus governor is on, every element that receives keyboard focus "
+"gets a visible outline in the configured ring colour and a scroll margin, so "
+"sticky headers and footers do not cover it. While the motion governor is on, "
+"animations and transitions collapse to 0.001 ms whenever the visitor has "
+"enabled Reduced Motion in the operating system. Both are CSS printed into "
+"the site head; the plugin does not audit or change the theme itself."
+msgstr ""
+"عند تشغيل حاكم التركيز، يحصل كل عنصر يستقبل تركيز لوحة المفاتيح على إطار "
+"خارجي واضح باللون المحدد وهامش تمرير يمنع الترويسات والتذييلات الثابتة من "
+"تغطيته. وعند تشغيل حاكم الحركة، تُقلَّص مدد الحركات والانتقالات إلى 0.001 مللي "
+"ثانية متى فعّل الزائر تقليل الحركة في نظام التشغيل. كلاهما يطبع CSS في ترويسة "
+"الموقع دون تعديل القالب."
+
+#: includes/Admin/AdminDashboard.php:328
+msgid "Data Lifecycle &amp; Uninstall"
+msgstr "دورة حياة البيانات &amp; إلغاء التثبيت"
+
+#: includes/Admin/AdminDashboard.php:336
+msgid "Delete plugin options on uninstall"
+msgstr "حذف خيارات الإضافة عند إلغاء التثبيت"
+
+#: includes/Admin/AdminDashboard.php:336
+msgid ""
+"&mdash; Stored settings are preserved by default when the plugin is deleted. "
+"Enable this option only if you want all plugin options and rate-limit "
+"transients removed upon uninstallation."
+msgstr ""
+"&mdash; يُحتفظ بالإعدادات المحفوظة افتراضياً عند حذف الإضافة. فعّل هذا الخيار "
+"فقط إذا أردت إزالة جميع خيارات الإضافة وبيانات حد الطلبات المؤقتة عند إلغاء "
+"التثبيت."
+
+#: includes/Admin/AdminDashboard.php:341
+msgid "Save Lifecycle Preference"
+msgstr "حفظ تفضيل دورة الحياة"
+
+#: includes/Admin/AdminDashboard.php:351
+msgid "Mathematical Relative Luminance Contrast Calculator"
+msgstr "الحاسبة الرياضية لتباين النصوع النسبي"
+
+#: includes/Admin/AdminDashboard.php:352
+msgid "Calculates the exact WCAG Relative Luminance formula:"
+msgstr "تحسب معادلة النصوع النسبي الدقيقة وفق WCAG:"
+
+#: includes/Admin/AdminDashboard.php:352
+msgid "(L1 + 0.05) / (L2 + 0.05)"
+msgstr "(L1 + 0.05) / (L2 + 0.05)"
+
+#: includes/Admin/AdminDashboard.php:357
+msgid "Foreground Color (Text / Icon):"
+msgstr "لون المقدمة (نص / أيقونة):"
+
+#: includes/Admin/AdminDashboard.php:359
+msgid "Foreground colour picker"
+msgstr "منتقي لون المقدمة"
+
+#: includes/Admin/AdminDashboard.php:365
+msgid "Background Color:"
+msgstr "لون الخلفية:"
+
+#: includes/Admin/AdminDashboard.php:367
+msgid "Background colour picker"
+msgstr "منتقي لون الخلفية"
+
+#: includes/Admin/AdminDashboard.php:373
+msgid "Sample Text Preview (Normal 16px)"
+msgstr "معاينة نص تجريبي (عادي 16px)"
+
+#: includes/Admin/AdminDashboard.php:374
+msgid "The quick brown fox jumps over the lazy dog."
+msgstr "نص تجريبي واضح لقياس التباين وسهولة القراءة."
+
+#: includes/Admin/AdminDashboard.php:379
+msgid "Evaluation Results"
+msgstr "نتائج التقييم"
+
+#: includes/Admin/AdminDashboard.php:383
+msgid "WCAG 2.2 AA Normal Text (≥4.5:1):"
+msgstr "WCAG 2.2 AA نص عادي (≥4.5:1):"
+
+#: includes/Admin/AdminDashboard.php:384
+msgid "WCAG 2.2 AA Large Text (≥3.0:1):"
+msgstr "WCAG 2.2 AA نص كبير (≥3.0:1):"
+
+#: includes/Admin/AdminDashboard.php:385
+msgid "WCAG 2.2 AAA Normal (≥7.0:1):"
+msgstr "WCAG 2.2 AAA عادي (≥7.0:1):"
+
+#: includes/Admin/AdminDashboard.php:386
+msgid "UI Components &amp; Focus Rings (≥3.0:1):"
+msgstr "عناصر الواجهة &amp; حلقات التركيز (≥3.0:1):"
+
+#: includes/Admin/AdminDashboard.php:417
+msgid "no hex colour"
+msgstr "لون سداسي عشري غير صالح"
+
+#: includes/Admin/AdminDashboard.php:439
+msgid "Calculation failed"
+msgstr "تعذر إجراء الحساب"
+
+#: includes/Admin/AdminDashboard.php:449
+msgid "Focus Not Obscured Settings (WCAG 2.2 2.4.11)"
+msgstr "إعدادات التركيز غير المحجوب (WCAG 2.2 2.4.11)"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid "Enable 2.4.11 Focus Obscured Auto-Governor"
+msgstr "تفعيل الحاكم التلقائي 2.4.11 للتركيز غير المحجوب"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid "&mdash; Automatically adds"
+msgstr "&mdash; يضيف تلقائياً خاصية"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid "scroll-margin-top"
+msgstr "scroll-margin-top"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid ""
+"to focused elements so sticky headers do not cover active input fields or "
+"buttons."
+msgstr ""
+"إلى العناصر المركّز عليها حتى لا تغطي الترويسات الثابتة الحقول أو الأزرار "
+"النشطة."
+
+#: includes/Admin/AdminDashboard.php:462
+msgid "High-Visibility Focus Ring Color:"
+msgstr "لون حلقة التركيز عالي الوضوح:"
+
+#: includes/Admin/AdminDashboard.php:470
+msgid "Save Focus Governor Rules"
+msgstr "حفظ قواعد حاكم التركيز"
+
+#: includes/Admin/AdminDashboard.php:480
+msgid "Vestibular Motion Governor Settings"
+msgstr "إعدادات حاكم الحركة الدهليزي"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "Enable Vestibular Motion Reducer"
+msgstr "تفعيل مخفّض الحركة الدهليزي"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid ""
+"&mdash; Injects universal CSS rules clamping animation and transition "
+"durations to"
+msgstr "&mdash; يدرج قواعد CSS شاملة تقيد مدة الحركات والانتقالات إلى"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "0.001ms"
+msgstr "0.001ms"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "whenever the user has enabled Reduced Motion in OS settings."
+msgstr "كلما فعّل المستخدم خيار تقليل الحركة في إعدادات نظام التشغيل."
+
+#: includes/Admin/AdminDashboard.php:493
+msgid "Save Motion Rules"
+msgstr "حفظ قواعد الحركة"
+
+#: includes/Admin/AdminDashboard.php:503
+msgid "WCAG 2.2 Statutory References &amp; Terminal Automation"
+msgstr "مراجع WCAG 2.2 &amp; أتمتة الطرفية"
+
+#: includes/Admin/AdminDashboard.php:506
+msgid "WCAG 2.2 Success Criterion 2.4.11 (Focus Not Obscured)"
+msgstr "معيار النجاح WCAG 2.2 2.4.11 (تركيز غير محجوب)"
+
+#: includes/Admin/AdminDashboard.php:508
+msgid ""
+"Requires that when a user interface component receives keyboard focus, the "
+"component is not entirely hidden due to author-created content (such as "
+"sticky navigation bars or modal banners)."
+msgstr ""
+"يتطلب ألا يُخفى مكوّن واجهة المستخدم بالكامل بفعل محتوى أنشأه المؤلف (مثل "
+"أشرطة التنقل الثابتة أو اللافتات المنبثقة) عند حصوله على تركيز لوحة المفاتيح."
+
+#: includes/Admin/AdminDashboard.php:512
+msgid "WCAG 2.2 Success Criterion 1.4.3 &amp; 1.4.11 (Contrast Minimum)"
+msgstr "معيار النجاح WCAG 2.2 1.4.3 &amp; 1.4.11 (الحد الأدنى للتباين)"
+
+#: includes/Admin/AdminDashboard.php:514
+msgid ""
+"Requires at least 4.5:1 contrast for normal text and 3:1 for large text and "
+"visual information required to identify user interface components and states."
+msgstr ""
+"يتطلب تبايناً لا يقل عن 4.5:1 للنص العادي و3:1 للنص الكبير والمعلومات البصرية "
+"اللازمة لتمييز مكونات الواجهة وحالاتها."
+
+#: includes/Admin/AdminDashboard.php:519
+msgid "WP-CLI command"
+msgstr "أمر WP-CLI"
+
+#: includes/API/RestController.php:74
+msgid ""
+"Too many contrast calculation requests. Please wait a minute and try again."
+msgstr ""
+"عدد كبير جداً من طلبات حساب التباين. يُرجى الانتظار دقيقة ثم المحاولة مرة أخرى."
+
+#: includes/Integrations/EcosystemBridge.php:32
+msgid "WM Sensory Governor Tokens"
+msgstr "رموز WM الحاكم الحسي"
+
+#: includes/Integrations/EcosystemBridge.php:46
+msgid "WM Sensory Token"
+msgstr "رمز WM الحسي"
+
+#: includes/Integrations/EcosystemBridge.php:50
+msgid ""
+"Outputs the active focus-ring hex colour, contrast ratio, or governor state."
+msgstr ""
+"يُخرج اللون السداسي العشري النشط لحلقة التركيز أو نسبة التباين أو حالة الحاكم."
+
+#: includes/Integrations/EcosystemBridge.php:54
+msgid "Token Key"
+msgstr "مفتاح الرمز"
+
+#: includes/Integrations/EcosystemBridge.php:59
+msgid "Focus Ring Colour"
+msgstr "لون حلقة التركيز"
+
+#: includes/Integrations/EcosystemBridge.php:63
+msgid "Focus Ring Dark Contrast"
+msgstr "تباين حلقة التركيز الداكن"
+
+#: includes/Integrations/EcosystemBridge.php:67
+msgid "Focus Governor Status"
+msgstr "حالة حاكم التركيز"
+
+#: includes/Integrations/EcosystemBridge.php:71
+msgid "Motion Governor Status"
+msgstr "حالة حاكم الحركة"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

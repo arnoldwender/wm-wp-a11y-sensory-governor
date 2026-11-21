@@ -1,0 +1,503 @@
+# Translation of wm-a11y-sensory-governor in et
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-a11y-sensory-governor 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-a11y-sensory-"
+"governor\n"
+"POT-Creation-Date: 2026-11-21T12:50:34+00:00\n"
+"PO-Revision-Date: 2026-11-21 13:50+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-a11y-"
+"sensory-governor/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-a11y-sensory-"
+"governor/issues>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-a11y-sensory-governor\n"
+
+#. Plugin Name of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "WM Accessibility Sensory Governor & Contrast Tokenizer"
+msgstr "WM Ligipääsetavuse Sensoorne Regulaator ja Kontrasti Tokeniseerija"
+
+#. Plugin URI of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-a11y-sensory-governor/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-a11y-sensory-governor/"
+
+#. Description of the plugin
+#: wm-a11y-sensory-governor.php
+msgid ""
+"Prints WCAG 2.2 focus-ring (SC 2.4.11 Focus Not Obscured) and reduced-motion "
+"(SC 2.3.3) CSS into the site head and calculates colour-contrast ratios in "
+"the admin, over REST and on WP-CLI."
+msgstr ""
+"Lisab saidi päisesse fookusrõnga (WCAG 2.2 SC 2.4.11 Focus Not Obscured) ja "
+"vähendatud liikumise (SC 2.3.3) CSS-reeglid ning arvutab värvikontrasti "
+"suhteid haldusliideses, REST-i ja WP-CLI kaudu."
+
+#. Author of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/Admin/AdminDashboard.php:86
+msgid "WM Sensory Governor — Fokus & Bewegung"
+msgstr "WM Sensory Governor — Fookus ja liikumine"
+
+#: includes/Admin/AdminDashboard.php:105
+msgid "Sensorischer Schutz aktiv"
+msgstr "Sensoorne kaitse aktiivne"
+
+#: includes/Admin/AdminDashboard.php:105
+msgid "Sensorischer Schutz aus"
+msgstr "Sensoorne kaitse väljas"
+
+#: includes/Admin/AdminDashboard.php:107
+msgid ""
+"Fokus-Ring und Reduced-Motion-CSS im Frontend (WCAG 2.2 SC 2.4.11 und 2.3.3)"
+msgstr ""
+"Fookusrõnga ja vähendatud liikumise CSS esilehel (WCAG 2.2 SC 2.4.11 ja "
+"2.3.3)"
+
+#: includes/Admin/AdminDashboard.php:113 includes/Admin/AdminDashboard.php:117
+msgid "Aktiv"
+msgstr "Aktiivne"
+
+#: includes/Admin/AdminDashboard.php:113 includes/Admin/AdminDashboard.php:117
+msgid "Aus"
+msgstr "Väljas"
+
+#: includes/Admin/AdminDashboard.php:114
+msgid "Motion Guard"
+msgstr "Liikumiskaitse"
+
+#: includes/Admin/AdminDashboard.php:118
+msgid "Fokus-Ring"
+msgstr "Fookusrõngas"
+
+#: includes/Admin/AdminDashboard.php:124
+msgid "Governor konfigurieren"
+msgstr "Seadista regulaatorit"
+
+#: includes/Admin/AdminDashboard.php:143
+msgid "WM Sensory Governor"
+msgstr "WM Sensoorne Regulaator"
+
+#: includes/Admin/AdminDashboard.php:144
+msgid "Sensory Governor"
+msgstr "Sensoorne Regulaator"
+
+#: includes/Admin/AdminDashboard.php:224
+msgid "PASS"
+msgstr "SOBIB"
+
+#: includes/Admin/AdminDashboard.php:224
+msgid "FAIL"
+msgstr "EI SOBI"
+
+#: includes/Admin/AdminDashboard.php:229
+msgid "Sensory Telemetry"
+msgstr "Sensoorne telemeetria"
+
+#: includes/Admin/AdminDashboard.php:230
+msgid "Live Contrast Calculator"
+msgstr "Reaalajas kontrastikalkulaator"
+
+#: includes/Admin/AdminDashboard.php:231
+msgid "Focus Not Obscured"
+msgstr "Katmata fookus"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "Vestibular Motion Governor"
+msgstr "Vestibulaarne liikumisregulaator"
+
+#: includes/Admin/AdminDashboard.php:233
+msgid "Law & WP-CLI"
+msgstr "Nõuded ja WP-CLI"
+
+#: includes/Admin/AdminDashboard.php:247
+msgid "WM Accessibility Sensory Governor &amp; Contrast Tokenizer"
+msgstr "WM Ligipääsetavuse Sensoorne Regulaator &amp; Kontrasti Tokeniseerija"
+
+#: includes/Admin/AdminDashboard.php:248
+msgid "Focus-ring &amp; reduced-motion CSS &bull; WCAG contrast calculator"
+msgstr ""
+"Fookusrõnga &amp; vähendatud liikumise CSS &bull; WCAG kontrastikalkulaator"
+
+#: includes/Admin/AdminDashboard.php:252
+msgid "Part of the WM Suite plugin family"
+msgstr "Osa WM Suite pistikprogrammide perekonnast"
+
+#: includes/Admin/AdminDashboard.php:254
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:255
+msgid "Hub"
+msgstr "Hub-režiim"
+
+#: includes/Admin/AdminDashboard.php:255
+msgid "Standalone"
+msgstr "Iseseisev"
+
+#: includes/Admin/AdminDashboard.php:257
+msgid "WCAG CONTRAST MATHS"
+msgstr "WCAG KONTRASTIMATEMAATIKA"
+
+#: includes/Admin/AdminDashboard.php:258
+msgid "SC 2.4.11 FOCUS CSS"
+msgstr "SC 2.4.11 FOOKUSE CSS"
+
+#: includes/Admin/AdminDashboard.php:259
+msgid "SC 2.3.3 REDUCED MOTION"
+msgstr "SC 2.3.3 VÄHENDATUD LIIKUMINE"
+
+#: includes/Admin/AdminDashboard.php:266
+msgid "Was macht der Sensory Governor und wofür brauchen Sie ihn?"
+msgstr "Mida teeb Sensory Governor ja milleks seda vaja on?"
+
+#: includes/Admin/AdminDashboard.php:269
+msgid ""
+"Das Plugin schreibt zwei CSS-Blöcke in den Kopf jeder Seite: einen "
+"sichtbaren Fokus-Ring mit Abstand zu fixierten Kopfzeilen (WCAG 2.2 SC "
+"2.4.11) und eine Bremse für Animationen, sobald Besucher in ihrem System "
+"„Bewegung reduzieren“ eingestellt haben (SC 2.3.3). Dazu rechnet es "
+"Farbkontraste nach der WCAG-Formel aus – hier im Backend, per REST und per "
+"WP-CLI. Die Farben der Website ändert es nicht."
+msgstr ""
+"Pistikprogramm kirjutab iga lehe päisesse kaks CSS-plokki: nähtava "
+"fookusrõnga koos varuga kinnitatud päiste suhtes (WCAG 2.2 SC 2.4.11) ning "
+"animatsioonipiduri, kui külastaja on oma süsteemis sisse lülitanud „Vähenda "
+"liikumist” (SC 2.3.3). Lisaks arvutab see värvikontraste WCAG valemi järgi "
+"halduses, REST-i ja WP-CLI kaudu saidi värve muutmata."
+
+#: includes/Admin/AdminDashboard.php:272
+msgid "Schnellzugriff:"
+msgstr "Kiirvalikud:"
+
+#: includes/Admin/AdminDashboard.php:274
+msgid "Farbkontrast live berechnen"
+msgstr "Arvuta värvikontrasti reaalajas"
+
+#: includes/Admin/AdminDashboard.php:277
+msgid "Bewegungsreduktion prüfen"
+msgstr "Kontrolli liikumise vähendamist"
+
+#: includes/Admin/AdminDashboard.php:280
+msgid "Rechtsgrundlagen & WP-CLI"
+msgstr "Õiguslik alus ja WP-CLI"
+
+#: includes/Admin/AdminDashboard.php:286
+msgid "Module Tabs"
+msgstr "Mooduli vahekaardid"
+
+#: includes/Admin/AdminDashboard.php:299
+msgid "Focus Obscured Guard"
+msgstr "Katmata fookuse kaitse"
+
+#: includes/Admin/AdminDashboard.php:300 includes/Admin/AdminDashboard.php:305
+#: includes/Integrations/EcosystemBridge.php:92
+#: includes/Integrations/EcosystemBridge.php:97
+msgid "Active"
+msgstr "Aktiivne"
+
+#: includes/Admin/AdminDashboard.php:300 includes/Admin/AdminDashboard.php:305
+#: includes/Integrations/EcosystemBridge.php:93
+#: includes/Integrations/EcosystemBridge.php:98
+msgid "Disabled"
+msgstr "Keelatud"
+
+#: includes/Admin/AdminDashboard.php:301
+msgid "WCAG 2.2 2.4.11"
+msgstr "WCAG 2.2 2.4.11"
+
+#: includes/Admin/AdminDashboard.php:304
+msgid "Motion Governor"
+msgstr "Liikumisregulaator"
+
+#: includes/Admin/AdminDashboard.php:306
+msgid "Prefers-Reduced-Motion"
+msgstr "Prefers-Reduced-Motion"
+
+#: includes/Admin/AdminDashboard.php:309
+msgid "Target Contrast Ratio"
+msgstr "Sihtkontrasti suhe"
+
+#: includes/Admin/AdminDashboard.php:310
+msgid "&ge; 4.5:1"
+msgstr "&ge; 4.5:1"
+
+#: includes/Admin/AdminDashboard.php:311
+msgid "WCAG 2.2 AA (Normal Text)"
+msgstr "WCAG 2.2 AA (Tavaline tekst)"
+
+#: includes/Admin/AdminDashboard.php:314
+msgid "UI &amp; Focus Ring Ratio"
+msgstr "UI &amp; fookusrõnga suhe"
+
+#: includes/Admin/AdminDashboard.php:315
+msgid "&ge; 3.0:1"
+msgstr "&ge; 3.0:1"
+
+#: includes/Admin/AdminDashboard.php:316
+msgid "WCAG 1.4.11 Non-Text"
+msgstr "WCAG 1.4.11 Mittetekstiline"
+
+#: includes/Admin/AdminDashboard.php:321
+msgid "What the two governors do"
+msgstr "Mida need kaks regulaatorit teevad"
+
+#: includes/Admin/AdminDashboard.php:323
+msgid ""
+"While the focus governor is on, every element that receives keyboard focus "
+"gets a visible outline in the configured ring colour and a scroll margin, so "
+"sticky headers and footers do not cover it. While the motion governor is on, "
+"animations and transitions collapse to 0.001 ms whenever the visitor has "
+"enabled Reduced Motion in the operating system. Both are CSS printed into "
+"the site head; the plugin does not audit or change the theme itself."
+msgstr ""
+"Kui fookusregulaator on sees, saab iga klaviatuurifookuse saanud element "
+"valitud värvis nähtava kontuuri ja kerimisvaru, et kinnitatud päised ja "
+"jalused seda ei kataks. Kui liikumisregulaator on sees, lühendatakse "
+"animatsioonid ja üleminekud 0,001 millisekundini kohe, kui külastaja on "
+"operatsioonisüsteemis lubanud Vähendatud liikumise. Mõlemad väljastavad CSS-"
+"i lehe päisesse teemat muutmata."
+
+#: includes/Admin/AdminDashboard.php:328
+msgid "Data Lifecycle &amp; Uninstall"
+msgstr "Andmete elutsükkel &amp; eemaldamine"
+
+#: includes/Admin/AdminDashboard.php:336
+msgid "Delete plugin options on uninstall"
+msgstr "Kustuta pistikprogrammi valikud eemaldamisel"
+
+#: includes/Admin/AdminDashboard.php:336
+msgid ""
+"&mdash; Stored settings are preserved by default when the plugin is deleted. "
+"Enable this option only if you want all plugin options and rate-limit "
+"transients removed upon uninstallation."
+msgstr ""
+"&mdash; Salvestatud seaded jäetakse pistikprogrammi kustutamisel vaikimisi "
+"alles. Luba see valik ainult siis, kui soovid eemaldamisel kustutada kõik "
+"pistikprogrammi seaded ja päringupiirangu vahemälu."
+
+#: includes/Admin/AdminDashboard.php:341
+msgid "Save Lifecycle Preference"
+msgstr "Salvesta elutsükli eelistus"
+
+#: includes/Admin/AdminDashboard.php:351
+msgid "Mathematical Relative Luminance Contrast Calculator"
+msgstr "Matemaatiline suhtelise heleduse kontrastikalkulaator"
+
+#: includes/Admin/AdminDashboard.php:352
+msgid "Calculates the exact WCAG Relative Luminance formula:"
+msgstr "Arvutab täpse WCAG suhtelise heleduse valemi:"
+
+#: includes/Admin/AdminDashboard.php:352
+msgid "(L1 + 0.05) / (L2 + 0.05)"
+msgstr "(L1 + 0.05) / (L2 + 0.05)"
+
+#: includes/Admin/AdminDashboard.php:357
+msgid "Foreground Color (Text / Icon):"
+msgstr "Esiplaani värv (tekst / ikoon):"
+
+#: includes/Admin/AdminDashboard.php:359
+msgid "Foreground colour picker"
+msgstr "Esiplaani värvivalija"
+
+#: includes/Admin/AdminDashboard.php:365
+msgid "Background Color:"
+msgstr "Taustavärv:"
+
+#: includes/Admin/AdminDashboard.php:367
+msgid "Background colour picker"
+msgstr "Taustavärvi valija"
+
+#: includes/Admin/AdminDashboard.php:373
+msgid "Sample Text Preview (Normal 16px)"
+msgstr "Näidisteksti eelvaade (tavaline 16px)"
+
+#: includes/Admin/AdminDashboard.php:374
+msgid "The quick brown fox jumps over the lazy dog."
+msgstr "Põdur zagrebi tšellomängija-följetonist Ciqo külmetas kehvas garaažis."
+
+#: includes/Admin/AdminDashboard.php:379
+msgid "Evaluation Results"
+msgstr "Hindamistulemused"
+
+#: includes/Admin/AdminDashboard.php:383
+msgid "WCAG 2.2 AA Normal Text (≥4.5:1):"
+msgstr "WCAG 2.2 AA Tavaline tekst (≥4.5:1):"
+
+#: includes/Admin/AdminDashboard.php:384
+msgid "WCAG 2.2 AA Large Text (≥3.0:1):"
+msgstr "WCAG 2.2 AA Suur tekst (≥3.0:1):"
+
+#: includes/Admin/AdminDashboard.php:385
+msgid "WCAG 2.2 AAA Normal (≥7.0:1):"
+msgstr "WCAG 2.2 AAA Tavaline (≥7.0:1):"
+
+#: includes/Admin/AdminDashboard.php:386
+msgid "UI Components &amp; Focus Rings (≥3.0:1):"
+msgstr "UI komponendid &amp; fookusrõngad (≥3.0:1):"
+
+#: includes/Admin/AdminDashboard.php:417
+msgid "no hex colour"
+msgstr "pole hex-värv"
+
+#: includes/Admin/AdminDashboard.php:439
+msgid "Calculation failed"
+msgstr "Arvutamine ebaõnnestus"
+
+#: includes/Admin/AdminDashboard.php:449
+msgid "Focus Not Obscured Settings (WCAG 2.2 2.4.11)"
+msgstr "Katmata fookuse seaded (WCAG 2.2 2.4.11)"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid "Enable 2.4.11 Focus Obscured Auto-Governor"
+msgstr "Luba 2.4.11 Katmata fookuse automaatregulaator"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid "&mdash; Automatically adds"
+msgstr "&mdash; Lisab automaatselt"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid "scroll-margin-top"
+msgstr "scroll-margin-top"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid ""
+"to focused elements so sticky headers do not cover active input fields or "
+"buttons."
+msgstr ""
+"fookustatud elementidele, et kinnitatud päised ei varjaks aktiivseid välju "
+"ega nuppe."
+
+#: includes/Admin/AdminDashboard.php:462
+msgid "High-Visibility Focus Ring Color:"
+msgstr "Kõrge nähtavusega fookusrõnga värv:"
+
+#: includes/Admin/AdminDashboard.php:470
+msgid "Save Focus Governor Rules"
+msgstr "Salvesta fookusregulaatori reeglid"
+
+#: includes/Admin/AdminDashboard.php:480
+msgid "Vestibular Motion Governor Settings"
+msgstr "Vestibulaarse liikumisregulaatori seaded"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "Enable Vestibular Motion Reducer"
+msgstr "Luba vestibulaarne liikumisvähendaja"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid ""
+"&mdash; Injects universal CSS rules clamping animation and transition "
+"durations to"
+msgstr ""
+"&mdash; Lisab üldised CSS-reeglid, mis piiravad animatsioonide ja "
+"üleminekute kestuse väärtusele"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "0.001ms"
+msgstr "0.001ms"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "whenever the user has enabled Reduced Motion in OS settings."
+msgstr ""
+"alati, kui kasutaja on operatsioonisüsteemi seadetes lubanud Vähendatud "
+"liikumise."
+
+#: includes/Admin/AdminDashboard.php:493
+msgid "Save Motion Rules"
+msgstr "Salvesta liikumisreeglid"
+
+#: includes/Admin/AdminDashboard.php:503
+msgid "WCAG 2.2 Statutory References &amp; Terminal Automation"
+msgstr "WCAG 2.2 viited &amp; terminali automatiseerimine"
+
+#: includes/Admin/AdminDashboard.php:506
+msgid "WCAG 2.2 Success Criterion 2.4.11 (Focus Not Obscured)"
+msgstr "WCAG 2.2 Edukriteerium 2.4.11 (Katmata fookus)"
+
+#: includes/Admin/AdminDashboard.php:508
+msgid ""
+"Requires that when a user interface component receives keyboard focus, the "
+"component is not entirely hidden due to author-created content (such as "
+"sticky navigation bars or modal banners)."
+msgstr ""
+"Nõuab, et kui kasutajaliidese komponent saab klaviatuurifookuse, ei tohi see "
+"olla täielikult varjatud autori loodud sisuga (nt kinnitatud "
+"navigeerimisribad või modaalsed bännerid)."
+
+#: includes/Admin/AdminDashboard.php:512
+msgid "WCAG 2.2 Success Criterion 1.4.3 &amp; 1.4.11 (Contrast Minimum)"
+msgstr "WCAG 2.2 Edukriteerium 1.4.3 &amp; 1.4.11 (Miinimumkontrast)"
+
+#: includes/Admin/AdminDashboard.php:514
+msgid ""
+"Requires at least 4.5:1 contrast for normal text and 3:1 for large text and "
+"visual information required to identify user interface components and states."
+msgstr ""
+"Nõuab vähemalt 4,5:1 kontrasti tavalisele tekstile ja 3:1 suurele tekstile "
+"ning kasutajaliidese komponentide ja olekute tuvastamiseks vajalikule "
+"visuaalsele teabele."
+
+#: includes/Admin/AdminDashboard.php:519
+msgid "WP-CLI command"
+msgstr "WP-CLI käsk"
+
+#: includes/API/RestController.php:74
+msgid ""
+"Too many contrast calculation requests. Please wait a minute and try again."
+msgstr ""
+"Liiga palju kontrasti arvutamise päringuid. Oodake üks minut ja proovige "
+"uuesti."
+
+#: includes/Integrations/EcosystemBridge.php:32
+msgid "WM Sensory Governor Tokens"
+msgstr "WM Sensoorse Regulaatori tokenid"
+
+#: includes/Integrations/EcosystemBridge.php:46
+msgid "WM Sensory Token"
+msgstr "WM Sensoorne Token"
+
+#: includes/Integrations/EcosystemBridge.php:50
+msgid ""
+"Outputs the active focus-ring hex colour, contrast ratio, or governor state."
+msgstr ""
+"Väljastab aktiivse fookusrõnga kuueteistkümnendvärvi, kontrastisuhte või "
+"regulaatori oleku."
+
+#: includes/Integrations/EcosystemBridge.php:54
+msgid "Token Key"
+msgstr "Tokeni võti"
+
+#: includes/Integrations/EcosystemBridge.php:59
+msgid "Focus Ring Colour"
+msgstr "Fookusrõnga värv"
+
+#: includes/Integrations/EcosystemBridge.php:63
+msgid "Focus Ring Dark Contrast"
+msgstr "Fookusrõnga tume kontrast"
+
+#: includes/Integrations/EcosystemBridge.php:67
+msgid "Focus Governor Status"
+msgstr "Fookusregulaatori olek"
+
+#: includes/Integrations/EcosystemBridge.php:71
+msgid "Motion Governor Status"
+msgstr "Liikumisregulaatori olek"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

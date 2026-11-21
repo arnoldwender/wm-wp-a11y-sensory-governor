@@ -1,0 +1,503 @@
+# Translation of wm-a11y-sensory-governor in de_DE
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-a11y-sensory-governor 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-a11y-sensory-"
+"governor\n"
+"POT-Creation-Date: 2026-11-21T12:50:34+00:00\n"
+"PO-Revision-Date: 2026-11-21 13:50+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-a11y-"
+"sensory-governor/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-a11y-sensory-"
+"governor/issues>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-a11y-sensory-governor\n"
+
+#. Plugin Name of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "WM Accessibility Sensory Governor & Contrast Tokenizer"
+msgstr "WM Barrierefreiheit Sensory Governor & Kontrast-Tokenizer"
+
+#. Plugin URI of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-a11y-sensory-governor/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-a11y-sensory-governor/"
+
+#. Description of the plugin
+#: wm-a11y-sensory-governor.php
+msgid ""
+"Prints WCAG 2.2 focus-ring (SC 2.4.11 Focus Not Obscured) and reduced-motion "
+"(SC 2.3.3) CSS into the site head and calculates colour-contrast ratios in "
+"the admin, over REST and on WP-CLI."
+msgstr ""
+"Gibt Fokus-Ring- (WCAG 2.2 SC 2.4.11 Focus Not Obscured) und Reduced-Motion-"
+"CSS (SC 2.3.3) im Seitenkopf aus und berechnet Farbkontrastverhältnisse im "
+"Backend, per REST und über WP-CLI."
+
+#. Author of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/Admin/AdminDashboard.php:86
+msgid "WM Sensory Governor — Fokus & Bewegung"
+msgstr "WM Sensory Governor — Fokus & Bewegung"
+
+#: includes/Admin/AdminDashboard.php:105
+msgid "Sensorischer Schutz aktiv"
+msgstr "Sensorischer Schutz aktiv"
+
+#: includes/Admin/AdminDashboard.php:105
+msgid "Sensorischer Schutz aus"
+msgstr "Sensorischer Schutz aus"
+
+#: includes/Admin/AdminDashboard.php:107
+msgid ""
+"Fokus-Ring und Reduced-Motion-CSS im Frontend (WCAG 2.2 SC 2.4.11 und 2.3.3)"
+msgstr ""
+"Fokus-Ring und Reduced-Motion-CSS im Frontend (WCAG 2.2 SC 2.4.11 und 2.3.3)"
+
+#: includes/Admin/AdminDashboard.php:113 includes/Admin/AdminDashboard.php:117
+msgid "Aktiv"
+msgstr "Aktiv"
+
+#: includes/Admin/AdminDashboard.php:113 includes/Admin/AdminDashboard.php:117
+msgid "Aus"
+msgstr "Aus"
+
+#: includes/Admin/AdminDashboard.php:114
+msgid "Motion Guard"
+msgstr "Bewegungsschutz"
+
+#: includes/Admin/AdminDashboard.php:118
+msgid "Fokus-Ring"
+msgstr "Fokus-Ring"
+
+#: includes/Admin/AdminDashboard.php:124
+msgid "Governor konfigurieren"
+msgstr "Governor konfigurieren"
+
+#: includes/Admin/AdminDashboard.php:143
+msgid "WM Sensory Governor"
+msgstr "WM Sensory Governor"
+
+#: includes/Admin/AdminDashboard.php:144
+msgid "Sensory Governor"
+msgstr "Sensory Governor"
+
+#: includes/Admin/AdminDashboard.php:224
+msgid "PASS"
+msgstr "BESTANDEN"
+
+#: includes/Admin/AdminDashboard.php:224
+msgid "FAIL"
+msgstr "NICHT BESTANDEN"
+
+#: includes/Admin/AdminDashboard.php:229
+msgid "Sensory Telemetry"
+msgstr "Sensorische Telemetrie"
+
+#: includes/Admin/AdminDashboard.php:230
+msgid "Live Contrast Calculator"
+msgstr "Live-Kontrastrechner"
+
+#: includes/Admin/AdminDashboard.php:231
+msgid "Focus Not Obscured"
+msgstr "Fokus nicht verdeckt"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "Vestibular Motion Governor"
+msgstr "Vestibulärer Bewegungs-Governor"
+
+#: includes/Admin/AdminDashboard.php:233
+msgid "Law & WP-CLI"
+msgstr "Rechtsgrundlagen & WP-CLI"
+
+#: includes/Admin/AdminDashboard.php:247
+msgid "WM Accessibility Sensory Governor &amp; Contrast Tokenizer"
+msgstr "WM Barrierefreiheit Sensory Governor &amp; Kontrast-Tokenizer"
+
+#: includes/Admin/AdminDashboard.php:248
+msgid "Focus-ring &amp; reduced-motion CSS &bull; WCAG contrast calculator"
+msgstr "Fokus-Ring- &amp; Reduced-Motion-CSS &bull; WCAG-Kontrastrechner"
+
+#: includes/Admin/AdminDashboard.php:252
+msgid "Part of the WM Suite plugin family"
+msgstr "Teil der WM-Suite-Plugin-Familie"
+
+#: includes/Admin/AdminDashboard.php:254
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:255
+msgid "Hub"
+msgstr "Hub-Modus"
+
+#: includes/Admin/AdminDashboard.php:255
+msgid "Standalone"
+msgstr "Einzelbetrieb"
+
+#: includes/Admin/AdminDashboard.php:257
+msgid "WCAG CONTRAST MATHS"
+msgstr "WCAG-KONTRASTMATHEMATIK"
+
+#: includes/Admin/AdminDashboard.php:258
+msgid "SC 2.4.11 FOCUS CSS"
+msgstr "SC 2.4.11 FOKUS-CSS"
+
+#: includes/Admin/AdminDashboard.php:259
+msgid "SC 2.3.3 REDUCED MOTION"
+msgstr "SC 2.3.3 BEWEGUNGSREDUKTION"
+
+#: includes/Admin/AdminDashboard.php:266
+msgid "Was macht der Sensory Governor und wofür brauchen Sie ihn?"
+msgstr "Was macht der Sensory Governor und wofür brauchen Sie ihn?"
+
+#: includes/Admin/AdminDashboard.php:269
+msgid ""
+"Das Plugin schreibt zwei CSS-Blöcke in den Kopf jeder Seite: einen "
+"sichtbaren Fokus-Ring mit Abstand zu fixierten Kopfzeilen (WCAG 2.2 SC "
+"2.4.11) und eine Bremse für Animationen, sobald Besucher in ihrem System "
+"„Bewegung reduzieren“ eingestellt haben (SC 2.3.3). Dazu rechnet es "
+"Farbkontraste nach der WCAG-Formel aus – hier im Backend, per REST und per "
+"WP-CLI. Die Farben der Website ändert es nicht."
+msgstr ""
+"Das Plugin schreibt zwei CSS-Blöcke in den Kopf jeder Seite: einen "
+"sichtbaren Fokus-Ring mit Abstand zu fixierten Kopfzeilen (WCAG 2.2 SC "
+"2.4.11) und eine Bremse für Animationen, sobald Besucher in ihrem System "
+"„Bewegung reduzieren“ eingestellt haben (SC 2.3.3). Dazu rechnet es "
+"Farbkontraste nach der WCAG-Formel aus – hier im Backend, per REST und per "
+"WP-CLI. Die Farben der Website ändert es nicht."
+
+#: includes/Admin/AdminDashboard.php:272
+msgid "Schnellzugriff:"
+msgstr "Schnellzugriff:"
+
+#: includes/Admin/AdminDashboard.php:274
+msgid "Farbkontrast live berechnen"
+msgstr "Farbkontrast live berechnen"
+
+#: includes/Admin/AdminDashboard.php:277
+msgid "Bewegungsreduktion prüfen"
+msgstr "Bewegungsreduktion prüfen"
+
+#: includes/Admin/AdminDashboard.php:280
+msgid "Rechtsgrundlagen & WP-CLI"
+msgstr "Rechtsgrundlagen & WP-CLI"
+
+#: includes/Admin/AdminDashboard.php:286
+msgid "Module Tabs"
+msgstr "Modul-Registerkarten"
+
+#: includes/Admin/AdminDashboard.php:299
+msgid "Focus Obscured Guard"
+msgstr "Schutz vor Fokusverdeckung"
+
+#: includes/Admin/AdminDashboard.php:300 includes/Admin/AdminDashboard.php:305
+#: includes/Integrations/EcosystemBridge.php:92
+#: includes/Integrations/EcosystemBridge.php:97
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/Admin/AdminDashboard.php:300 includes/Admin/AdminDashboard.php:305
+#: includes/Integrations/EcosystemBridge.php:93
+#: includes/Integrations/EcosystemBridge.php:98
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: includes/Admin/AdminDashboard.php:301
+msgid "WCAG 2.2 2.4.11"
+msgstr "WCAG 2.2 2.4.11"
+
+#: includes/Admin/AdminDashboard.php:304
+msgid "Motion Governor"
+msgstr "Bewegungs-Governor"
+
+#: includes/Admin/AdminDashboard.php:306
+msgid "Prefers-Reduced-Motion"
+msgstr "Prefers-Reduced-Motion"
+
+#: includes/Admin/AdminDashboard.php:309
+msgid "Target Contrast Ratio"
+msgstr "Ziel-Kontrastverhältnis"
+
+#: includes/Admin/AdminDashboard.php:310
+msgid "&ge; 4.5:1"
+msgstr "&ge; 4.5:1"
+
+#: includes/Admin/AdminDashboard.php:311
+msgid "WCAG 2.2 AA (Normal Text)"
+msgstr "WCAG 2.2 AA (Normaler Text)"
+
+#: includes/Admin/AdminDashboard.php:314
+msgid "UI &amp; Focus Ring Ratio"
+msgstr "UI- &amp; Fokus-Ring-Verhältnis"
+
+#: includes/Admin/AdminDashboard.php:315
+msgid "&ge; 3.0:1"
+msgstr "&ge; 3.0:1"
+
+#: includes/Admin/AdminDashboard.php:316
+msgid "WCAG 1.4.11 Non-Text"
+msgstr "WCAG 1.4.11 Nicht-Text"
+
+#: includes/Admin/AdminDashboard.php:321
+msgid "What the two governors do"
+msgstr "Was die beiden Governors tun"
+
+#: includes/Admin/AdminDashboard.php:323
+msgid ""
+"While the focus governor is on, every element that receives keyboard focus "
+"gets a visible outline in the configured ring colour and a scroll margin, so "
+"sticky headers and footers do not cover it. While the motion governor is on, "
+"animations and transitions collapse to 0.001 ms whenever the visitor has "
+"enabled Reduced Motion in the operating system. Both are CSS printed into "
+"the site head; the plugin does not audit or change the theme itself."
+msgstr ""
+"Solange der Fokus-Governor aktiv ist, erhält jedes Element mit Tastaturfokus "
+"einen sichtbaren Rahmen in der gewählten Ringfarbe sowie einen Scroll-"
+"Abstand, damit fixierte Kopf- und Fußzeilen es nicht verdecken. Solange der "
+"Bewegungs-Governor aktiv ist, werden Animationen und Übergänge auf 0,001 ms "
+"verkürzt, sobald Besucher im Betriebssystem „Bewegung reduzieren“ aktiviert "
+"haben. Beides wird als CSS im Seitenkopf ausgegeben; das Theme selbst wird "
+"weder geprüft noch verändert."
+
+#: includes/Admin/AdminDashboard.php:328
+msgid "Data Lifecycle &amp; Uninstall"
+msgstr "Datenlebenszyklus &amp; Deinstallation"
+
+#: includes/Admin/AdminDashboard.php:336
+msgid "Delete plugin options on uninstall"
+msgstr "Plugin-Optionen bei Deinstallation löschen"
+
+#: includes/Admin/AdminDashboard.php:336
+msgid ""
+"&mdash; Stored settings are preserved by default when the plugin is deleted. "
+"Enable this option only if you want all plugin options and rate-limit "
+"transients removed upon uninstallation."
+msgstr ""
+"&mdash; Gespeicherte Einstellungen bleiben beim Löschen des Plugins "
+"standardmäßig erhalten. Aktivieren Sie diese Option nur, wenn beim "
+"Deinstallieren sämtliche Plugin-Optionen und Ratenbegrenzungs-Transients "
+"entfernt werden sollen."
+
+#: includes/Admin/AdminDashboard.php:341
+msgid "Save Lifecycle Preference"
+msgstr "Lebenszyklus-Einstellung speichern"
+
+#: includes/Admin/AdminDashboard.php:351
+msgid "Mathematical Relative Luminance Contrast Calculator"
+msgstr "Mathematischer Rechner für relative Leuchtdichte und Kontrast"
+
+#: includes/Admin/AdminDashboard.php:352
+msgid "Calculates the exact WCAG Relative Luminance formula:"
+msgstr "Berechnet die exakte WCAG-Formel für relative Leuchtdichte:"
+
+#: includes/Admin/AdminDashboard.php:352
+msgid "(L1 + 0.05) / (L2 + 0.05)"
+msgstr "(L1 + 0.05) / (L2 + 0.05)"
+
+#: includes/Admin/AdminDashboard.php:357
+msgid "Foreground Color (Text / Icon):"
+msgstr "Vordergrundfarbe (Text / Symbol):"
+
+#: includes/Admin/AdminDashboard.php:359
+msgid "Foreground colour picker"
+msgstr "Farbwähler für Vordergrundfarbe"
+
+#: includes/Admin/AdminDashboard.php:365
+msgid "Background Color:"
+msgstr "Hintergrundfarbe:"
+
+#: includes/Admin/AdminDashboard.php:367
+msgid "Background colour picker"
+msgstr "Farbwähler für Hintergrundfarbe"
+
+#: includes/Admin/AdminDashboard.php:373
+msgid "Sample Text Preview (Normal 16px)"
+msgstr "Beispieltext-Vorschau (Normal 16px)"
+
+#: includes/Admin/AdminDashboard.php:374
+msgid "The quick brown fox jumps over the lazy dog."
+msgstr "Franz jagt im komplett verwahrlosten Taxi quer durch Bayern."
+
+#: includes/Admin/AdminDashboard.php:379
+msgid "Evaluation Results"
+msgstr "Auswertungsergebnisse"
+
+#: includes/Admin/AdminDashboard.php:383
+msgid "WCAG 2.2 AA Normal Text (≥4.5:1):"
+msgstr "WCAG 2.2 AA Normaler Text (≥4.5:1):"
+
+#: includes/Admin/AdminDashboard.php:384
+msgid "WCAG 2.2 AA Large Text (≥3.0:1):"
+msgstr "WCAG 2.2 AA Großer Text (≥3.0:1):"
+
+#: includes/Admin/AdminDashboard.php:385
+msgid "WCAG 2.2 AAA Normal (≥7.0:1):"
+msgstr "WCAG 2.2 AAA Normaler Text (≥7.0:1):"
+
+#: includes/Admin/AdminDashboard.php:386
+msgid "UI Components &amp; Focus Rings (≥3.0:1):"
+msgstr "UI-Komponenten &amp; Fokus-Ringe (≥3.0:1):"
+
+#: includes/Admin/AdminDashboard.php:417
+msgid "no hex colour"
+msgstr "keine Hex-Farbe"
+
+#: includes/Admin/AdminDashboard.php:439
+msgid "Calculation failed"
+msgstr "Berechnung fehlgeschlagen"
+
+#: includes/Admin/AdminDashboard.php:449
+msgid "Focus Not Obscured Settings (WCAG 2.2 2.4.11)"
+msgstr "Einstellungen Fokus nicht verdeckt (WCAG 2.2 2.4.11)"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid "Enable 2.4.11 Focus Obscured Auto-Governor"
+msgstr "2.4.11 Fokus-Auto-Governor aktivieren"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid "&mdash; Automatically adds"
+msgstr "&mdash; Fügt automatisch"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid "scroll-margin-top"
+msgstr "scroll-margin-top"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid ""
+"to focused elements so sticky headers do not cover active input fields or "
+"buttons."
+msgstr ""
+"zu fokussierten Elementen hinzu, damit fixierte Kopfzeilen aktive "
+"Eingabefelder oder Schaltflächen nicht überdecken."
+
+#: includes/Admin/AdminDashboard.php:462
+msgid "High-Visibility Focus Ring Color:"
+msgstr "Gut sichtbare Fokus-Ring-Farbe:"
+
+#: includes/Admin/AdminDashboard.php:470
+msgid "Save Focus Governor Rules"
+msgstr "Fokus-Governor-Regeln speichern"
+
+#: includes/Admin/AdminDashboard.php:480
+msgid "Vestibular Motion Governor Settings"
+msgstr "Einstellungen Vestibulärer Bewegungs-Governor"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "Enable Vestibular Motion Reducer"
+msgstr "Vestibulären Bewegungsreduzierer aktivieren"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid ""
+"&mdash; Injects universal CSS rules clamping animation and transition "
+"durations to"
+msgstr ""
+"&mdash; Fügt allgemeine CSS-Regeln ein, die Animations- und Übergangsdauern "
+"auf"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "0.001ms"
+msgstr "0.001ms"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "whenever the user has enabled Reduced Motion in OS settings."
+msgstr ""
+"begrenzen, sobald im Betriebssystem „Bewegung reduzieren“ aktiviert ist."
+
+#: includes/Admin/AdminDashboard.php:493
+msgid "Save Motion Rules"
+msgstr "Bewegungsregeln speichern"
+
+#: includes/Admin/AdminDashboard.php:503
+msgid "WCAG 2.2 Statutory References &amp; Terminal Automation"
+msgstr "WCAG 2.2 Referenzen &amp; Terminal-Automatisierung"
+
+#: includes/Admin/AdminDashboard.php:506
+msgid "WCAG 2.2 Success Criterion 2.4.11 (Focus Not Obscured)"
+msgstr "WCAG 2.2 Erfolgskriterium 2.4.11 (Fokus nicht verdeckt)"
+
+#: includes/Admin/AdminDashboard.php:508
+msgid ""
+"Requires that when a user interface component receives keyboard focus, the "
+"component is not entirely hidden due to author-created content (such as "
+"sticky navigation bars or modal banners)."
+msgstr ""
+"Verlangt, dass eine Bedienoberflächen-Komponente beim Erhalt des "
+"Tastaturfokus nicht vollständig durch vom Autor erstellte Inhalte (wie "
+"fixierte Navigationsleisten oder Banner) verdeckt wird."
+
+#: includes/Admin/AdminDashboard.php:512
+msgid "WCAG 2.2 Success Criterion 1.4.3 &amp; 1.4.11 (Contrast Minimum)"
+msgstr "WCAG 2.2 Erfolgskriterium 1.4.3 &amp; 1.4.11 (Kontrast Minimum)"
+
+#: includes/Admin/AdminDashboard.php:514
+msgid ""
+"Requires at least 4.5:1 contrast for normal text and 3:1 for large text and "
+"visual information required to identify user interface components and states."
+msgstr ""
+"Verlangt mindestens 4,5:1 Kontrast für normalen Text sowie 3:1 für großen "
+"Text und visuelle Informationen zur Erkennung von Bedienelementen und "
+"Zuständen."
+
+#: includes/Admin/AdminDashboard.php:519
+msgid "WP-CLI command"
+msgstr "WP-CLI-Befehl"
+
+#: includes/API/RestController.php:74
+msgid ""
+"Too many contrast calculation requests. Please wait a minute and try again."
+msgstr ""
+"Zu viele Anfragen zur Kontrastberechnung. Bitte warten Sie eine Minute und "
+"versuchen Sie es erneut."
+
+#: includes/Integrations/EcosystemBridge.php:32
+msgid "WM Sensory Governor Tokens"
+msgstr "WM Sensory Governor Tokens"
+
+#: includes/Integrations/EcosystemBridge.php:46
+msgid "WM Sensory Token"
+msgstr "WM Sensory Token"
+
+#: includes/Integrations/EcosystemBridge.php:50
+msgid ""
+"Outputs the active focus-ring hex colour, contrast ratio, or governor state."
+msgstr ""
+"Gibt die aktive Hex-Farbe des Fokus-Rings, das Kontrastverhältnis oder den "
+"Governor-Status aus."
+
+#: includes/Integrations/EcosystemBridge.php:54
+msgid "Token Key"
+msgstr "Token-Schlüssel"
+
+#: includes/Integrations/EcosystemBridge.php:59
+msgid "Focus Ring Colour"
+msgstr "Fokus-Ring-Farbe"
+
+#: includes/Integrations/EcosystemBridge.php:63
+msgid "Focus Ring Dark Contrast"
+msgstr "Fokus-Ring-Dunkelkontrast"
+
+#: includes/Integrations/EcosystemBridge.php:67
+msgid "Focus Governor Status"
+msgstr "Status Fokus-Governor"
+
+#: includes/Integrations/EcosystemBridge.php:71
+msgid "Motion Governor Status"
+msgstr "Status Bewegungs-Governor"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

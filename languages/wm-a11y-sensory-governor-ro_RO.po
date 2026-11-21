@@ -1,0 +1,508 @@
+# Translation of wm-a11y-sensory-governor in ro_RO
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-a11y-sensory-governor 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-a11y-sensory-"
+"governor\n"
+"POT-Creation-Date: 2026-11-21T12:50:34+00:00\n"
+"PO-Revision-Date: 2026-11-21 13:50+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-a11y-"
+"sensory-governor/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-a11y-sensory-"
+"governor/issues>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && "
+"n%100<20)) ? 1 : 2);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-a11y-sensory-governor\n"
+
+#. Plugin Name of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "WM Accessibility Sensory Governor & Contrast Tokenizer"
+msgstr "WM Guvernator Senzorial de Accesibilitate și Tokenizator de Contrast"
+
+#. Plugin URI of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-a11y-sensory-governor/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-a11y-sensory-governor/"
+
+#. Description of the plugin
+#: wm-a11y-sensory-governor.php
+msgid ""
+"Prints WCAG 2.2 focus-ring (SC 2.4.11 Focus Not Obscured) and reduced-motion "
+"(SC 2.3.3) CSS into the site head and calculates colour-contrast ratios in "
+"the admin, over REST and on WP-CLI."
+msgstr ""
+"Afișează CSS pentru inelul de focalizare (WCAG 2.2 SC 2.4.11 Focus Not "
+"Obscured) și mișcare redusă (SC 2.3.3) în secțiunea head a site-ului și "
+"calculează rapoartele de contrast cromatic în administrare, prin REST și WP-"
+"CLI."
+
+#. Author of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-a11y-sensory-governor.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/Admin/AdminDashboard.php:86
+msgid "WM Sensory Governor — Fokus & Bewegung"
+msgstr "WM Sensory Governor — Focalizare și Mișcare"
+
+#: includes/Admin/AdminDashboard.php:105
+msgid "Sensorischer Schutz aktiv"
+msgstr "Protecție senzorială activă"
+
+#: includes/Admin/AdminDashboard.php:105
+msgid "Sensorischer Schutz aus"
+msgstr "Protecție senzorială oprită"
+
+#: includes/Admin/AdminDashboard.php:107
+msgid ""
+"Fokus-Ring und Reduced-Motion-CSS im Frontend (WCAG 2.2 SC 2.4.11 und 2.3.3)"
+msgstr ""
+"CSS pentru inel de focalizare și mișcare redusă în frontend (WCAG 2.2 SC "
+"2.4.11 și 2.3.3)"
+
+#: includes/Admin/AdminDashboard.php:113 includes/Admin/AdminDashboard.php:117
+msgid "Aktiv"
+msgstr "Activ"
+
+#: includes/Admin/AdminDashboard.php:113 includes/Admin/AdminDashboard.php:117
+msgid "Aus"
+msgstr "Oprit"
+
+#: includes/Admin/AdminDashboard.php:114
+msgid "Motion Guard"
+msgstr "Protecție mișcare"
+
+#: includes/Admin/AdminDashboard.php:118
+msgid "Fokus-Ring"
+msgstr "Inel de focalizare"
+
+#: includes/Admin/AdminDashboard.php:124
+msgid "Governor konfigurieren"
+msgstr "Configurează guvernatorul"
+
+#: includes/Admin/AdminDashboard.php:143
+msgid "WM Sensory Governor"
+msgstr "WM Guvernator Senzorial"
+
+#: includes/Admin/AdminDashboard.php:144
+msgid "Sensory Governor"
+msgstr "Guvernator Senzorial"
+
+#: includes/Admin/AdminDashboard.php:224
+msgid "PASS"
+msgstr "ADMIS"
+
+#: includes/Admin/AdminDashboard.php:224
+msgid "FAIL"
+msgstr "RESPINS"
+
+#: includes/Admin/AdminDashboard.php:229
+msgid "Sensory Telemetry"
+msgstr "Telemetrie senzorială"
+
+#: includes/Admin/AdminDashboard.php:230
+msgid "Live Contrast Calculator"
+msgstr "Calculator de contrast în timp real"
+
+#: includes/Admin/AdminDashboard.php:231
+msgid "Focus Not Obscured"
+msgstr "Focalizare neacoperită"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "Vestibular Motion Governor"
+msgstr "Guvernator de mișcare vestibulară"
+
+#: includes/Admin/AdminDashboard.php:233
+msgid "Law & WP-CLI"
+msgstr "Norme și WP-CLI"
+
+#: includes/Admin/AdminDashboard.php:247
+msgid "WM Accessibility Sensory Governor &amp; Contrast Tokenizer"
+msgstr ""
+"WM Guvernator Senzorial de Accesibilitate &amp; Tokenizator de Contrast"
+
+#: includes/Admin/AdminDashboard.php:248
+msgid "Focus-ring &amp; reduced-motion CSS &bull; WCAG contrast calculator"
+msgstr ""
+"CSS inel de focalizare &amp; mișcare redusă &bull; Calculator de contrast "
+"WCAG"
+
+#: includes/Admin/AdminDashboard.php:252
+msgid "Part of the WM Suite plugin family"
+msgstr "Parte din familia de module WM Suite"
+
+#: includes/Admin/AdminDashboard.php:254
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:255
+msgid "Hub"
+msgstr "Mod Hub"
+
+#: includes/Admin/AdminDashboard.php:255
+msgid "Standalone"
+msgstr "Autonom"
+
+#: includes/Admin/AdminDashboard.php:257
+msgid "WCAG CONTRAST MATHS"
+msgstr "MATEMATICĂ DE CONTRAST WCAG"
+
+#: includes/Admin/AdminDashboard.php:258
+msgid "SC 2.4.11 FOCUS CSS"
+msgstr "CSS FOCALIZARE SC 2.4.11"
+
+#: includes/Admin/AdminDashboard.php:259
+msgid "SC 2.3.3 REDUCED MOTION"
+msgstr "MIȘCARE REDUSĂ SC 2.3.3"
+
+#: includes/Admin/AdminDashboard.php:266
+msgid "Was macht der Sensory Governor und wofür brauchen Sie ihn?"
+msgstr "Ce face Sensory Governor și de ce aveți nevoie de el?"
+
+#: includes/Admin/AdminDashboard.php:269
+msgid ""
+"Das Plugin schreibt zwei CSS-Blöcke in den Kopf jeder Seite: einen "
+"sichtbaren Fokus-Ring mit Abstand zu fixierten Kopfzeilen (WCAG 2.2 SC "
+"2.4.11) und eine Bremse für Animationen, sobald Besucher in ihrem System "
+"„Bewegung reduzieren“ eingestellt haben (SC 2.3.3). Dazu rechnet es "
+"Farbkontraste nach der WCAG-Formel aus – hier im Backend, per REST und per "
+"WP-CLI. Die Farben der Website ändert es nicht."
+msgstr ""
+"Modulul scrie două blocuri CSS în antetul fiecărei pagini: un inel de "
+"focalizare vizibil cu distanță față de barele fixe (WCAG 2.2 SC 2.4.11) și o "
+"frână pentru animații când vizitatorii activează „Reducere mișcare” în "
+"sistem (SC 2.3.3). În plus, calculează contrastele de culoare după formula "
+"WCAG în panou, prin REST și WP-CLI, fără a schimba culorile site-ului."
+
+#: includes/Admin/AdminDashboard.php:272
+msgid "Schnellzugriff:"
+msgstr "Acces rapid:"
+
+#: includes/Admin/AdminDashboard.php:274
+msgid "Farbkontrast live berechnen"
+msgstr "Calculează contrastul de culoare live"
+
+#: includes/Admin/AdminDashboard.php:277
+msgid "Bewegungsreduktion prüfen"
+msgstr "Verifică reducerea mișcării"
+
+#: includes/Admin/AdminDashboard.php:280
+msgid "Rechtsgrundlagen & WP-CLI"
+msgstr "Bază normativă și WP-CLI"
+
+#: includes/Admin/AdminDashboard.php:286
+msgid "Module Tabs"
+msgstr "Filele modulului"
+
+#: includes/Admin/AdminDashboard.php:299
+msgid "Focus Obscured Guard"
+msgstr "Protecție focalizare vizibilă"
+
+#: includes/Admin/AdminDashboard.php:300 includes/Admin/AdminDashboard.php:305
+#: includes/Integrations/EcosystemBridge.php:92
+#: includes/Integrations/EcosystemBridge.php:97
+msgid "Active"
+msgstr "Activ"
+
+#: includes/Admin/AdminDashboard.php:300 includes/Admin/AdminDashboard.php:305
+#: includes/Integrations/EcosystemBridge.php:93
+#: includes/Integrations/EcosystemBridge.php:98
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: includes/Admin/AdminDashboard.php:301
+msgid "WCAG 2.2 2.4.11"
+msgstr "WCAG 2.2 2.4.11"
+
+#: includes/Admin/AdminDashboard.php:304
+msgid "Motion Governor"
+msgstr "Guvernator de mișcare"
+
+#: includes/Admin/AdminDashboard.php:306
+msgid "Prefers-Reduced-Motion"
+msgstr "Prefers-Reduced-Motion"
+
+#: includes/Admin/AdminDashboard.php:309
+msgid "Target Contrast Ratio"
+msgstr "Raport de contrast țintă"
+
+#: includes/Admin/AdminDashboard.php:310
+msgid "&ge; 4.5:1"
+msgstr "&ge; 4.5:1"
+
+#: includes/Admin/AdminDashboard.php:311
+msgid "WCAG 2.2 AA (Normal Text)"
+msgstr "WCAG 2.2 AA (Text normal)"
+
+#: includes/Admin/AdminDashboard.php:314
+msgid "UI &amp; Focus Ring Ratio"
+msgstr "Raport UI &amp; inel de focalizare"
+
+#: includes/Admin/AdminDashboard.php:315
+msgid "&ge; 3.0:1"
+msgstr "&ge; 3.0:1"
+
+#: includes/Admin/AdminDashboard.php:316
+msgid "WCAG 1.4.11 Non-Text"
+msgstr "WCAG 1.4.11 Non-text"
+
+#: includes/Admin/AdminDashboard.php:321
+msgid "What the two governors do"
+msgstr "Ce fac cei doi guvernatori"
+
+#: includes/Admin/AdminDashboard.php:323
+msgid ""
+"While the focus governor is on, every element that receives keyboard focus "
+"gets a visible outline in the configured ring colour and a scroll margin, so "
+"sticky headers and footers do not cover it. While the motion governor is on, "
+"animations and transitions collapse to 0.001 ms whenever the visitor has "
+"enabled Reduced Motion in the operating system. Both are CSS printed into "
+"the site head; the plugin does not audit or change the theme itself."
+msgstr ""
+"Cât timp guvernatorul de focalizare este activ, fiecare element care "
+"primește focalizare de la tastatură primește un contur vizibil în culoarea "
+"configurată și o margine de derulare, astfel încât anteturile și subsolurile "
+"fixe să nu îl acopere. Cât timp guvernatorul de mișcare este activ, "
+"animațiile și tranzițiile scad la 0,001 ms ori de câte ori vizitatorul a "
+"activat Mișcare redusă în sistemul de operare. Ambele inserează CSS în head "
+"fără a modifica tema."
+
+#: includes/Admin/AdminDashboard.php:328
+msgid "Data Lifecycle &amp; Uninstall"
+msgstr "Ciclul de viață al datelor &amp; dezinstalare"
+
+#: includes/Admin/AdminDashboard.php:336
+msgid "Delete plugin options on uninstall"
+msgstr "Șterge opțiunile modulului la dezinstalare"
+
+#: includes/Admin/AdminDashboard.php:336
+msgid ""
+"&mdash; Stored settings are preserved by default when the plugin is deleted. "
+"Enable this option only if you want all plugin options and rate-limit "
+"transients removed upon uninstallation."
+msgstr ""
+"&mdash; Setările salvate sunt păstrate implicit la ștergerea modulului. "
+"Activați această opțiune numai dacă doriți eliminarea tuturor opțiunilor și "
+"a datelor temporare de limitare a cererilor la dezinstalare."
+
+#: includes/Admin/AdminDashboard.php:341
+msgid "Save Lifecycle Preference"
+msgstr "Salvează preferința ciclului de viață"
+
+#: includes/Admin/AdminDashboard.php:351
+msgid "Mathematical Relative Luminance Contrast Calculator"
+msgstr "Calculator matematic de contrast prin luminanță relativă"
+
+#: includes/Admin/AdminDashboard.php:352
+msgid "Calculates the exact WCAG Relative Luminance formula:"
+msgstr "Calculează formula exactă WCAG a luminanței relative:"
+
+#: includes/Admin/AdminDashboard.php:352
+msgid "(L1 + 0.05) / (L2 + 0.05)"
+msgstr "(L1 + 0.05) / (L2 + 0.05)"
+
+#: includes/Admin/AdminDashboard.php:357
+msgid "Foreground Color (Text / Icon):"
+msgstr "Culoare prim-plan (text / pictogramă):"
+
+#: includes/Admin/AdminDashboard.php:359
+msgid "Foreground colour picker"
+msgstr "Selector culoare prim-plan"
+
+#: includes/Admin/AdminDashboard.php:365
+msgid "Background Color:"
+msgstr "Culoare fundal:"
+
+#: includes/Admin/AdminDashboard.php:367
+msgid "Background colour picker"
+msgstr "Selector culoare fundal"
+
+#: includes/Admin/AdminDashboard.php:373
+msgid "Sample Text Preview (Normal 16px)"
+msgstr "Previzualizare text eșantion (normal 16px)"
+
+#: includes/Admin/AdminDashboard.php:374
+msgid "The quick brown fox jumps over the lazy dog."
+msgstr "Muzicologă în bej vând whisky și tequila, preț fix."
+
+#: includes/Admin/AdminDashboard.php:379
+msgid "Evaluation Results"
+msgstr "Rezultatele evaluării"
+
+#: includes/Admin/AdminDashboard.php:383
+msgid "WCAG 2.2 AA Normal Text (≥4.5:1):"
+msgstr "WCAG 2.2 AA Text normal (≥4.5:1):"
+
+#: includes/Admin/AdminDashboard.php:384
+msgid "WCAG 2.2 AA Large Text (≥3.0:1):"
+msgstr "WCAG 2.2 AA Text mare (≥3.0:1):"
+
+#: includes/Admin/AdminDashboard.php:385
+msgid "WCAG 2.2 AAA Normal (≥7.0:1):"
+msgstr "WCAG 2.2 AAA Normal (≥7.0:1):"
+
+#: includes/Admin/AdminDashboard.php:386
+msgid "UI Components &amp; Focus Rings (≥3.0:1):"
+msgstr "Componente UI &amp; inele de focalizare (≥3.0:1):"
+
+#: includes/Admin/AdminDashboard.php:417
+msgid "no hex colour"
+msgstr "culoare hex invalidă"
+
+#: includes/Admin/AdminDashboard.php:439
+msgid "Calculation failed"
+msgstr "Calculul a eșuat"
+
+#: includes/Admin/AdminDashboard.php:449
+msgid "Focus Not Obscured Settings (WCAG 2.2 2.4.11)"
+msgstr "Setări Focalizare neacoperită (WCAG 2.2 2.4.11)"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid "Enable 2.4.11 Focus Obscured Auto-Governor"
+msgstr "Activează auto-guvernatorul 2.4.11 Focalizare neacoperită"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid "&mdash; Automatically adds"
+msgstr "&mdash; Adaugă automat"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid "scroll-margin-top"
+msgstr "scroll-margin-top"
+
+#: includes/Admin/AdminDashboard.php:457
+msgid ""
+"to focused elements so sticky headers do not cover active input fields or "
+"buttons."
+msgstr ""
+"elementelor focalizate, astfel încât anteturile fixe să nu acopere câmpurile "
+"sau butoanele active."
+
+#: includes/Admin/AdminDashboard.php:462
+msgid "High-Visibility Focus Ring Color:"
+msgstr "Culoare de înaltă vizibilitate pentru inelul de focalizare:"
+
+#: includes/Admin/AdminDashboard.php:470
+msgid "Save Focus Governor Rules"
+msgstr "Salvează regulile de focalizare"
+
+#: includes/Admin/AdminDashboard.php:480
+msgid "Vestibular Motion Governor Settings"
+msgstr "Setări guvernator de mișcare vestibulară"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "Enable Vestibular Motion Reducer"
+msgstr "Activează reductorul de mișcare vestibulară"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid ""
+"&mdash; Injects universal CSS rules clamping animation and transition "
+"durations to"
+msgstr ""
+"&mdash; Injectează reguli CSS universale care limitează durata animațiilor "
+"și tranzițiilor la"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "0.001ms"
+msgstr "0.001ms"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid "whenever the user has enabled Reduced Motion in OS settings."
+msgstr ""
+"ori de câte ori utilizatorul a activat Mișcare redusă în setările sistemului "
+"de operare."
+
+#: includes/Admin/AdminDashboard.php:493
+msgid "Save Motion Rules"
+msgstr "Salvează regulile de mișcare"
+
+#: includes/Admin/AdminDashboard.php:503
+msgid "WCAG 2.2 Statutory References &amp; Terminal Automation"
+msgstr "Referințe WCAG 2.2 &amp; automatizare în terminal"
+
+#: includes/Admin/AdminDashboard.php:506
+msgid "WCAG 2.2 Success Criterion 2.4.11 (Focus Not Obscured)"
+msgstr "Criteriul de succes WCAG 2.2 2.4.11 (Focalizare neacoperită)"
+
+#: includes/Admin/AdminDashboard.php:508
+msgid ""
+"Requires that when a user interface component receives keyboard focus, the "
+"component is not entirely hidden due to author-created content (such as "
+"sticky navigation bars or modal banners)."
+msgstr ""
+"Solicită ca atunci când o componentă a interfeței primește focalizare de la "
+"tastatură, aceasta să nu fie complet ascunsă de conținut creat de autor (cum "
+"ar fi barele fixe de navigare sau bannerele modale)."
+
+#: includes/Admin/AdminDashboard.php:512
+msgid "WCAG 2.2 Success Criterion 1.4.3 &amp; 1.4.11 (Contrast Minimum)"
+msgstr "Criteriul de succes WCAG 2.2 1.4.3 &amp; 1.4.11 (Contrast minim)"
+
+#: includes/Admin/AdminDashboard.php:514
+msgid ""
+"Requires at least 4.5:1 contrast for normal text and 3:1 for large text and "
+"visual information required to identify user interface components and states."
+msgstr ""
+"Solicită un contrast de cel puțin 4,5:1 pentru textul normal și 3:1 pentru "
+"textul mare și informațiile vizuale necesare identificării componentelor și "
+"stărilor interfeței."
+
+#: includes/Admin/AdminDashboard.php:519
+msgid "WP-CLI command"
+msgstr "Comandă WP-CLI"
+
+#: includes/API/RestController.php:74
+msgid ""
+"Too many contrast calculation requests. Please wait a minute and try again."
+msgstr ""
+"Prea multe cereri de calcul al contrastului. Așteptați un minut și încercați "
+"din nou."
+
+#: includes/Integrations/EcosystemBridge.php:32
+msgid "WM Sensory Governor Tokens"
+msgstr "Tokenuri WM Guvernator Senzorial"
+
+#: includes/Integrations/EcosystemBridge.php:46
+msgid "WM Sensory Token"
+msgstr "Token Senzorial WM"
+
+#: includes/Integrations/EcosystemBridge.php:50
+msgid ""
+"Outputs the active focus-ring hex colour, contrast ratio, or governor state."
+msgstr ""
+"Returnează culoarea hex activă a inelului de focalizare, raportul de "
+"contrast sau starea guvernatorului."
+
+#: includes/Integrations/EcosystemBridge.php:54
+msgid "Token Key"
+msgstr "Cheie token"
+
+#: includes/Integrations/EcosystemBridge.php:59
+msgid "Focus Ring Colour"
+msgstr "Culoarea inelului de focalizare"
+
+#: includes/Integrations/EcosystemBridge.php:63
+msgid "Focus Ring Dark Contrast"
+msgstr "Contrast întunecat al inelului de focalizare"
+
+#: includes/Integrations/EcosystemBridge.php:67
+msgid "Focus Governor Status"
+msgstr "Starea guvernatorului de focalizare"
+
+#: includes/Integrations/EcosystemBridge.php:71
+msgid "Motion Governor Status"
+msgstr "Starea guvernatorului de mișcare"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"
